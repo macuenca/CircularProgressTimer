@@ -14,6 +14,8 @@ No extra frameworks needed, just UIKit.
 
 1. Copy and paste CircularProgressBarView header and implementation files into your project. Don't forget the circle.png and circle@2x.png files.
 2. Kick-off a timer with a one second interval whose action points to the progress bar drawing method. You can see the full example in MainViewController.m:
+
+
 ```objective-c
     timer = [NSTimer scheduledTimerWithTimeInterval:1.0
                                              target:self
@@ -22,7 +24,11 @@ No extra frameworks needed, just UIKit.
                                             repeats:YES];
 
 ```
+
+
 3. In the updateCircularProgressBar method, just call the drawing function passing the total amount of seconds left. Show the remaining amount of time in minutes and seconds is a simple operation:
+
+
 ```objective-c
         minutesLeft = globalTimer / 60;
         secondsLeft = globalTimer % 60;
