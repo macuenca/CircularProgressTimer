@@ -12,7 +12,7 @@ The project uses Interface Builder only for the main View Controller, but the ci
 
 No extra frameworks needed, just UIKit.
 
-1. Copy and paste CircularProgressBarView header and implementation files into your project. Don't forget the circle.png and circle@2x.png files.
+1. Copy and paste CircularProgressBarView header and implementation files into your project. Don't forget the `circle.png` and `circle@2x.png` files.
 2. Kick-off a timer with a one second interval whose action points to the progress bar drawing method. You can see the full example in MainViewController.m:
 
 
