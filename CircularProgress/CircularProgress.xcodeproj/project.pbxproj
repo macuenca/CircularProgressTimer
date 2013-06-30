@@ -16,6 +16,11 @@
 		4CCF71F71780F007000AFDFC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF71F61780F007000AFDFC /* Default.png */; };
 		4CCF71F91780F007000AFDFC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF71F81780F007000AFDFC /* Default@2x.png */; };
 		4CCF71FB1780F007000AFDFC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF71FA1780F007000AFDFC /* Default-568h@2x.png */; };
+		4CCF72041780F099000AFDFC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF72021780F099000AFDFC /* MainViewController.m */; };
+		4CCF72051780F099000AFDFC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF72031780F099000AFDFC /* MainViewController.xib */; };
+		4CCF72081780F0CC000AFDFC /* CircularProgressTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF72071780F0CC000AFDFC /* CircularProgressTimer.m */; };
+		4CCF720B1780F126000AFDFC /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF72091780F126000AFDFC /* circle.png */; };
+		4CCF720C1780F126000AFDFC /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF720A1780F126000AFDFC /* circle@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,13 @@
 		4CCF71F61780F007000AFDFC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4CCF71F81780F007000AFDFC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4CCF71FA1780F007000AFDFC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4CCF72011780F099000AFDFC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4CCF72021780F099000AFDFC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4CCF72031780F099000AFDFC /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4CCF72061780F0CC000AFDFC /* CircularProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressTimer.h; sourceTree = "<group>"; };
+		4CCF72071780F0CC000AFDFC /* CircularProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressTimer.m; sourceTree = "<group>"; };
+		4CCF72091780F126000AFDFC /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		4CCF720A1780F126000AFDFC /* circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,11 @@
 			children = (
 				4CCF71F31780F007000AFDFC /* AppDelegate.h */,
 				4CCF71F41780F007000AFDFC /* AppDelegate.m */,
+				4CCF72061780F0CC000AFDFC /* CircularProgressTimer.h */,
+				4CCF72071780F0CC000AFDFC /* CircularProgressTimer.m */,
+				4CCF72011780F099000AFDFC /* MainViewController.h */,
+				4CCF72021780F099000AFDFC /* MainViewController.m */,
+				4CCF72031780F099000AFDFC /* MainViewController.xib */,
 				4CCF71EB1780F007000AFDFC /* Supporting Files */,
 			);
 			path = CircularProgress;
@@ -92,6 +109,8 @@
 				4CCF71ED1780F007000AFDFC /* InfoPlist.strings */,
 				4CCF71F01780F007000AFDFC /* main.m */,
 				4CCF71F21780F007000AFDFC /* CircularProgress-Prefix.pch */,
+				4CCF72091780F126000AFDFC /* circle.png */,
+				4CCF720A1780F126000AFDFC /* circle@2x.png */,
 				4CCF71F61780F007000AFDFC /* Default.png */,
 				4CCF71F81780F007000AFDFC /* Default@2x.png */,
 				4CCF71FA1780F007000AFDFC /* Default-568h@2x.png */,
@@ -154,6 +173,9 @@
 				4CCF71F71780F007000AFDFC /* Default.png in Resources */,
 				4CCF71F91780F007000AFDFC /* Default@2x.png in Resources */,
 				4CCF71FB1780F007000AFDFC /* Default-568h@2x.png in Resources */,
+				4CCF72051780F099000AFDFC /* MainViewController.xib in Resources */,
+				4CCF720B1780F126000AFDFC /* circle.png in Resources */,
+				4CCF720C1780F126000AFDFC /* circle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +188,8 @@
 			files = (
 				4CCF71F11780F007000AFDFC /* main.m in Sources */,
 				4CCF71F51780F007000AFDFC /* AppDelegate.m in Sources */,
+				4CCF72041780F099000AFDFC /* MainViewController.m in Sources */,
+				4CCF72081780F0CC000AFDFC /* CircularProgressTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

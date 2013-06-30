@@ -15,6 +15,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    MainViewController *mainViewController = [[MainViewController alloc] init];
+    [self.window setRootViewController:mainViewController];
     [self.window makeKeyAndVisible];
     return YES;
 }
